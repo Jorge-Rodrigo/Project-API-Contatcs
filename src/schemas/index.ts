@@ -1,3 +1,4 @@
+import { createLoginSchema } from "./login.schemas";
 import {
   userCreateSchema,
   userReturnSchema,
@@ -12,4 +13,5 @@ export {
   returnUserSchemaWithoutPass,
   returnAllUsers,
   updateUserReq,
+  createLoginSchema,
 };
