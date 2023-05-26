@@ -1,5 +1,6 @@
 { 
   "compilerOptions": { 
+    "outDir": "./dist",
     "target": "es2016", 
     "module": "commonjs", 
     "typeRoots": ["src/@types", "node_modules/@types"], 
@@ -11,7 +12,6 @@
     "experimentalDecorators":true,
     "strictPropertyInitialization": false,
     "emitDecoratorMetadata": true,
-    "outDir": "./dist"
   }, 
   "include": ["src"], 
   "exclude": ["node_modules"] 
