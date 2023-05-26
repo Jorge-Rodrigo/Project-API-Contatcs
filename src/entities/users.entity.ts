@@ -25,8 +25,8 @@ class User {
   @Column({ length: 120 })
   password: string;
 
-  @Column({ type: "int" })
-  phoneNumber: number;
+  @Column({ type: "varchar", length: 15 })
+  phoneNumber: string;
 
   @CreateDateColumn({ type: "date" })
   createdAt: string | Date;
