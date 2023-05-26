@@ -29,10 +29,10 @@ class User {
   phoneNumber: string;
 
   @CreateDateColumn({ type: "date" })
-  createdAt: string | Date;
+  createdAt: string | Date | null;
 
   @UpdateDateColumn({ type: "date" })
-  updatedAt: string | Date;
+  updatedAt: string | Date | null;
 
   @DeleteDateColumn({ type: "date", nullable: true })
   deletedAt: string | Date | null | undefined;

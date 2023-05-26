@@ -1,3 +1,9 @@
+import {
+  contactCreateSchema,
+  contactReturnSchema,
+  updateContactReq,
+  returnAllContacts,
+} from "./contacts.schemas";
 import { createLoginSchema } from "./login.schemas";
 import {
   userCreateSchema,
@@ -14,4 +20,8 @@ export {
   returnAllUsers,
   updateUserReq,
   createLoginSchema,
+  contactCreateSchema,
+  contactReturnSchema,
+  updateContactReq,
+  returnAllContacts,
 };

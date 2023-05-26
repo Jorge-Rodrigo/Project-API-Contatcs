@@ -16,11 +16,11 @@ class Contact {
   @Column({ length: 150 })
   fullName: string;
 
-  @Column({ length: 45, unique: true })
+  @Column({ length: 45 })
   email: string;
 
-  @Column({ type: "int" })
-  phoneNumber: number;
+  @Column({ type: "varchar", length: 15 })
+  phoneNumber: string;
 
   @CreateDateColumn({ type: "date" })
   createdAt: string | Date;

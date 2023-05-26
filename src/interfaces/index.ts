@@ -1,3 +1,9 @@
+import {
+  tAllContactsReturn,
+  tContactReq,
+  tContactReturn,
+  tContactUpdate,
+} from "./contacts.interfaces";
 import { tLoginReq } from "./login.interfaces";
 import {
   tUserReq,
@@ -14,4 +20,8 @@ export {
   tAllUsersReturn,
   tUserUpdate,
   tLoginReq,
+  tContactReq,
+  tContactReturn,
+  tAllContactsReturn,
+  tContactUpdate,
 };

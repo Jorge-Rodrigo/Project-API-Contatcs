@@ -1,3 +1,9 @@
+import {
+  createContactController,
+  deleteContactController,
+  listContactsController,
+  updateContactController,
+} from "./contacts.controllers";
 import { createLoginController } from "./login.controller";
 import {
   createUserController,
@@ -12,4 +18,8 @@ export {
   updateUserController,
   deleteUserController,
   createLoginController,
+  createContactController,
+  listContactsController,
+  updateContactController,
+  deleteContactController,
 };
