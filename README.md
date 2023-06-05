@@ -11,6 +11,13 @@
 
 ## **Endpoints**
 
+Para fazer a intalação da API localmente:
+
+<p> Se estiver usando o yarn, apenas execute o comando: <b> yarn </b> e para rodar a API use: <b> yarn dev </b> </p>
+
+<p> Caso estiver usando o npm execute o comando <b> npm install </b> e para rodar a API use: <b> npm run dev </b> </p>
+
+
 A API tem um total de 3 endpoints
 
 O url base da API é https://contacts-book-api.onrender.com/
